@@ -1,0 +1,31 @@
+- config:
+    name: 查询项目列表
+    request:
+      base_url: http://api.lemonban.com/futureloan
+- test:
+    extract:
+    - token: content.token
+    name: 登录用例
+    request:
+      json:
+        password: '123456'
+        username: xiaoyang
+      method: POST
+      url: /user/login/
+    validate:
+    - check: content.username
+      comparator: equals
+      expected: xiaoyang
+- test:
+    name: 查询项目列表
+    request:
+      headers:
+        'authorization ': JWT $token
+      method: GET
+      params:
+        page: '2'
+      url: /projects/
+    validate:
+    - check: status_code
+      comparator: equals
+      expected: 200

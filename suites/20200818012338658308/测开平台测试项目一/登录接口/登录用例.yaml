@@ -1,0 +1,18 @@
+- config:
+    name: 登录用例
+    request:
+      base_url: http://127.0.0.1:8888
+- test:
+    extract:
+    - token: content.token
+    name: 登录用例
+    request:
+      json:
+        password: '123456'
+        username: xiaoyang
+      method: POST
+      url: /user/login/
+    validate:
+    - check: content.username
+      comparator: equals
+      expected: xiaoyang

@@ -1,0 +1,5636 @@
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>套件2_前程贷项目_20200818172237 - TestReport</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0 auto;
+      width: 960px;
+    }
+    #summary {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    #summary th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    #summary td {
+      background-color: lightblue;
+      text-align: center;
+      padding: 4px 8px;
+    }
+    .details {
+      width: 960px;
+      margin-bottom: 20px;
+    }
+    .details th {
+      background-color: skyblue;
+      padding: 5px 12px;
+    }
+    .details tr .passed {
+      background-color: lightgreen;
+    }
+    .details tr .failed {
+      background-color: red;
+    }
+    .details tr .unchecked {
+      background-color: gray;
+    }
+    .details td {
+      background-color: lightblue;
+      padding: 5px 12px;
+    }
+    .details .detail {
+      background-color: lightgrey;
+      font-size: smaller;
+      padding: 5px 10px;
+      text-align: center;
+    }
+    .details .success {
+      background-color: greenyellow;
+    }
+    .details .error {
+      background-color: red;
+    }
+    .details .failure {
+      background-color: salmon;
+    }
+    .details .skipped {
+      background-color: gray;
+    }
+
+    .button {
+      font-size: 1em;
+      padding: 6px;
+      width: 4em;
+      text-align: center;
+      background-color: #06d85f;
+      border-radius: 20px/50px;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    a.button{
+      color: gray;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #2cffbd;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      width: 50%;
+      position: relative;
+      transition: all 3s ease-in-out;
+    }
+
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06d85f;
+    }
+    .popup .content {
+      max-height: 80%;
+      overflow: auto;
+      text-align: left;
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        width: 70%;
+      }
+      .popup {
+        width: 70%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Test Report: 套件2_前程贷项目_20200818172237</h1>
+
+  <h2>Summary</h2>
+  <table id="summary">
+
+    <tr>
+      <th>START AT</th>
+      <td colspan="4">2020-08-18 17:22:37</td>
+    </tr>
+    <tr>
+      <th>DURATION</th>
+      <td colspan="4">0.094 seconds</td>
+    </tr>
+    <tr>
+      <th>PLATFORM</th>
+      <td>HttpRunner 1.5.8 </td>
+      <td>CPython 3.7.2 </td>
+      <td colspan="2">Windows-10-10.0.18362-SP0</td>
+    </tr>
+    <tr>
+      <th>TOTAL</th>
+      <th>SUCCESS</th>
+      <th>FAILED</th>
+      <th>ERROR</th>
+      <th>SKIPPED</th>
+      <!-- <th>ExpectedFailure</th>
+      <th>UnexpectedSuccess</th> -->
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <!-- <td>0</td>
+      <td>0</td> -->
+    </tr>
+  </table>
+
+  <h2>Details</h2>
+
+  
+  
+  <h3>查询项目列表配置_前程贷项目</h3>
+  <table id="suite_1" class="details">
+    <tr>
+      <th>base_url</th>
+      <td colspan="2">http://127.0.0.1:8888</td>
+      <th colspan="2" class="detail">
+        <a class="button" href="#suite_output_1">parameters & output</a>
+        <div id="suite_output_1" class="overlay">
+            <div class="popup">
+                <h2>Parameters and Output</h2>
+                <a class="close" href="#suite_1">&times;</a>
+                <div class="content">
+                  <div style="overflow: auto">
+                      <table>
+                        <tr>
+                          <th>variables</th>
+                          <th>output</th>
+                        </tr>
+                        
+                      </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>TOTAL: 2</td>
+      <td>SUCCESS: 0</td>
+      <td>FAILED: 2</td>
+      <td>ERROR: 0</td>
+      <td>SKIPPED: 0</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <th colspan="2">Name</th>
+      <th>Response Time</th>
+      <th>Detail</th>
+    </tr>
+
+    
+    
+    <tr id="record_1_1">
+      <th class="failure" style="width:5em;">failure</td>
+      <td colspan="2">查看项目列表接口_正向用例</td>
+      <td style="text-align:center;width:6em;">16.99 ms</td>
+      <td class="detail">
+
+        <a class="button" href="#popup_log_1_1">log</a>
+        <div id="popup_log_1_1" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_1">&times;</a>
+
+            <div class="content">
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                          http://127.0.0.1:8888/loans?pageIndex=2&pageSize=3
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                          GET
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                          
+                          <div>
+                            <strong>User-Agent</strong>: python-requests/2.24.0
+                          </div>
+                          
+                          <div>
+                            <strong>Accept-Encoding</strong>: gzip, deflate
+                          </div>
+                          
+                          <div>
+                            <strong>accept</strong>: application/json
+                          </div>
+                          
+                          <div>
+                            <strong>Connection</strong>: keep-alive
+                          </div>
+                          
+                          <div>
+                            <strong>x-lemonban-media-type</strong>: lemonban.v1
+                          </div>
+                          
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>start_timestamp</th>
+                      <td>
+                        
+                          1597742557.677474
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>params</th>
+                      <td>
+                        
+                          {'pageIndex': 2, 'pageSize': 3}
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>body</th>
+                      <td>
+                        
+                          None
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            404
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            
+                            <div>
+                              <strong>User-Agent</strong>: python-requests/2.24.0
+                            </div>
+                            
+                            <div>
+                              <strong>Accept-Encoding</strong>: gzip, deflate
+                            </div>
+                            
+                            <div>
+                              <strong>accept</strong>: application/json
+                            </div>
+                            
+                            <div>
+                              <strong>Connection</strong>: keep-alive
+                            </div>
+                            
+                            <div>
+                              <strong>x-lemonban-media-type</strong>: lemonban.v1
+                            </div>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_size</th>
+                        <td>
+                          
+                            16670
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>response_time_ms</th>
+                        <td>
+                          
+                            16.99
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>elapsed_ms</th>
+                        <td>
+                          
+                            14.861
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            ISO-8859-1
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /loans</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>DjangoProject.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                docs/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^swagger(?P&lt;format&gt;\.json|\.yaml)$
+                [name='schema-json']
+            
+          </li>
+        
+          <li>
+            
+                swagger/
+                [name='schema-swagger-ui']
+            
+          </li>
+        
+          <li>
+            
+                redoc/
+                [name='schemaredoc']
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+          <li>
+            
+                user/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names/$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names/$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)/$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)/$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>loans</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            
+                              <pre></pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            False
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            http://127.0.0.1:8888/loans?pageIndex=2&pageSize=3
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            Not Found
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            {}
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>text</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /loans</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>DjangoProject.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                docs/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^swagger(?P&lt;format&gt;\.json|\.yaml)$
+                [name='schema-json']
+            
+          </li>
+        
+          <li>
+            
+                swagger/
+                [name='schema-swagger-ui']
+            
+          </li>
+        
+          <li>
+            
+                redoc/
+                [name='schemaredoc']
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+          <li>
+            
+                user/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names/$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names/$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)/$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)/$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>loans</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>json</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Validators:</h3>
+              <div style="overflow: auto">
+                  <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="failed">
+                      
+                        status_code
+                      </td>
+                      <td>equals</td>
+                      <td>200</td>
+                      <td>404</td>
+                    </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>16670</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>16.99</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>14.861</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+          <a class="button" href="#popup_attachment_1_1">traceback</a>
+          <div id="popup_attachment_1_1" class="overlay">
+            <div class="popup">
+              <h2>Traceback Message</h2>
+              <a class="close" href="#record_1_1">&times;</a>
+              <div class="content"><pre>Traceback (most recent call last):
+  File "G:\PycharmProjects\DjangoProject\venv\lib\site-packages\httprunner\task.py", line 27, in runTest
+    self.test_runner.run_test(self.testcase_dict)
+httprunner.exceptions.ExtractFailure: Failed to extract attribute from response body! => content.code
+response body: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /loans</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>DjangoProject.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                docs/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^swagger(?P&lt;format&gt;\.json|\.yaml)$
+                [name='schema-json']
+            
+          </li>
+        
+          <li>
+            
+                swagger/
+                [name='schema-swagger-ui']
+            
+          </li>
+        
+          <li>
+            
+                redoc/
+                [name='schemaredoc']
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+          <li>
+            
+                user/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names/$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names/$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)/$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)/$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>loans</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmProjects\DjangoProject\venv\lib\site-packages\httprunner\task.py", line 29, in runTest
+    self.fail(repr(ex))
+AssertionError: ExtractFailure('Failed to extract attribute from response body! => content.code\nresponse body: <!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /loans</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>DjangoProject.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                docs/\n                \n            \n          </li>\n        \n          <li>\n            \n                ^swagger(?P&lt;format&gt;\\.json|\\.yaml)$\n                [name=\'schema-json\']\n            \n          </li>\n        \n          <li>\n            \n                swagger/\n                [name=\'schema-swagger-ui\']\n            \n          </li>\n        \n          <li>\n            \n                redoc/\n                [name=\'schemaredoc\']\n            \n          </li>\n        \n          <li>\n            \n                api/\n                \n            \n          </li>\n        \n          <li>\n            \n                user/\n                \n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/$\n                [name=\'projects-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/names/$\n                [name=\'projects-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/names\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'projects-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$\n                [name=\'projects-interfaces\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-interfaces\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'projects-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/$\n                [name=\'interfaces-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'interfaces-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$\n                [name=\'interfaces-configs\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-configs\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'interfaces-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$\n                [name=\'interfaces-testcases\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-testcases\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/$\n                [name=\'envs-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'envs-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/names/$\n                [name=\'envs-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/names\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'envs-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'envs-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'envs-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks/$\n                [name=\'debugtalks-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'debugtalks-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'debugtalks-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'debugtalks-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/$\n                [name=\'testsuits-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testsuits-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'testsuits-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testsuits-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'testsuits-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testsuits-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/$\n                [name=\'reports-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'reports-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'reports-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'reports-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$\n                [name=\'reports-download\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)/download\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'reports-download\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/$\n                [name=\'testcases-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testcases-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'testcases-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testcases-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'testcases-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testcases-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures/$\n                [name=\'configures-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'configures-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'configures-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'configures-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n      </ol>\n      <p>\n        \n        The current path, <code>loans</code>, didn\'t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\'re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n\n')
+</pre></div>
+            </div>
+          </div>
+        
+
+      </td>
+    </tr>
+  
+    
+    <tr id="record_1_2">
+      <th class="failure" style="width:5em;">failure</td>
+      <td colspan="2">查看项目列表接口_正向用例</td>
+      <td style="text-align:center;width:6em;">16.98 ms</td>
+      <td class="detail">
+
+        <a class="button" href="#popup_log_1_2">log</a>
+        <div id="popup_log_1_2" class="overlay">
+          <div class="popup">
+            <h2>Request and Response data</h2>
+            <a class="close" href="#record_1_2">&times;</a>
+
+            <div class="content">
+              <h3>Request:</h3>
+              <div style="overflow: auto">
+                <table>
+                  
+                    <tr>
+                      <th>url</th>
+                      <td>
+                        
+                          http://127.0.0.1:8888/loans?pageIndex=2&pageSize=3
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>method</th>
+                      <td>
+                        
+                          GET
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>headers</th>
+                      <td>
+                        
+                          
+                          <div>
+                            <strong>User-Agent</strong>: python-requests/2.24.0
+                          </div>
+                          
+                          <div>
+                            <strong>Accept-Encoding</strong>: gzip, deflate
+                          </div>
+                          
+                          <div>
+                            <strong>accept</strong>: application/json
+                          </div>
+                          
+                          <div>
+                            <strong>Connection</strong>: keep-alive
+                          </div>
+                          
+                          <div>
+                            <strong>x-lemonban-media-type</strong>: lemonban.v1
+                          </div>
+                          
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>start_timestamp</th>
+                      <td>
+                        
+                          1597742557.7254753
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>params</th>
+                      <td>
+                        
+                          {'pageIndex': 2, 'pageSize': 3}
+                        
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>body</th>
+                      <td>
+                        
+                          None
+                        
+                      </td>
+                    </tr>
+                  
+                </table>
+              </div>
+
+              <h3>Response:</h3>
+              <div style="overflow: auto">
+                <table>
+                    
+                      <tr>
+                        <th>status_code</th>
+                        <td>
+                          
+                            404
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>headers</th>
+                        <td>
+                          
+                            
+                            <div>
+                              <strong>User-Agent</strong>: python-requests/2.24.0
+                            </div>
+                            
+                            <div>
+                              <strong>Accept-Encoding</strong>: gzip, deflate
+                            </div>
+                            
+                            <div>
+                              <strong>accept</strong>: application/json
+                            </div>
+                            
+                            <div>
+                              <strong>Connection</strong>: keep-alive
+                            </div>
+                            
+                            <div>
+                              <strong>x-lemonban-media-type</strong>: lemonban.v1
+                            </div>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_size</th>
+                        <td>
+                          
+                            16670
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>response_time_ms</th>
+                        <td>
+                          
+                            16.98
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>elapsed_ms</th>
+                        <td>
+                          
+                            14.369
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>encoding</th>
+                        <td>
+                          
+                            ISO-8859-1
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /loans</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>DjangoProject.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                docs/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^swagger(?P&lt;format&gt;\.json|\.yaml)$
+                [name='schema-json']
+            
+          </li>
+        
+          <li>
+            
+                swagger/
+                [name='schema-swagger-ui']
+            
+          </li>
+        
+          <li>
+            
+                redoc/
+                [name='schemaredoc']
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+          <li>
+            
+                user/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names/$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names/$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)/$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)/$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>loans</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>content_type</th>
+                        <td>
+                          
+                            
+                              <pre></pre>
+                            
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>ok</th>
+                        <td>
+                          
+                            False
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>url</th>
+                        <td>
+                          
+                            http://127.0.0.1:8888/loans?pageIndex=2&pageSize=3
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>reason</th>
+                        <td>
+                          
+                            Not Found
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>cookies</th>
+                        <td>
+                          
+                            {}
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>text</th>
+                        <td>
+                          
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /loans</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>DjangoProject.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                docs/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^swagger(?P&lt;format&gt;\.json|\.yaml)$
+                [name='schema-json']
+            
+          </li>
+        
+          <li>
+            
+                swagger/
+                [name='schema-swagger-ui']
+            
+          </li>
+        
+          <li>
+            
+                redoc/
+                [name='schemaredoc']
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+          <li>
+            
+                user/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names/$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names/$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)/$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)/$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>loans</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+                          
+                        </td>
+                      </tr>
+                    
+                      <tr>
+                        <th>json</th>
+                        <td>
+                          
+                            None
+                          
+                        </td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Validators:</h3>
+              <div style="overflow: auto">
+                  <table>
+                    <tr>
+                      <th>check</th>
+                      <th>comparator</th>
+                      <th>expect value</th>
+                      <th>actual value</th>
+                    </tr>
+                    
+                    <tr>
+                      
+                      <td class="failed">
+                      
+                        status_code
+                      </td>
+                      <td>equals</td>
+                      <td>200</td>
+                      <td>404</td>
+                    </tr>
+                    
+                  </table>
+              </div>
+
+              <h3>Statistics:</h3>
+              <div style="overflow: auto">
+                <table>
+                  <tr>
+                      <th>content_size(bytes)</th>
+                      <td>16670</td>
+                    </tr>
+                  <tr>
+                    <th>response_time(ms)</th>
+                    <td>16.98</td>
+                  </tr>
+                  <tr>
+                    <th>elapsed(ms)</th>
+                    <td>14.369</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+          <a class="button" href="#popup_attachment_1_2">traceback</a>
+          <div id="popup_attachment_1_2" class="overlay">
+            <div class="popup">
+              <h2>Traceback Message</h2>
+              <a class="close" href="#record_1_2">&times;</a>
+              <div class="content"><pre>Traceback (most recent call last):
+  File "G:\PycharmProjects\DjangoProject\venv\lib\site-packages\httprunner\task.py", line 27, in runTest
+    self.test_runner.run_test(self.testcase_dict)
+httprunner.exceptions.ExtractFailure: Failed to extract attribute from response body! => content.code
+response body: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /loans</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>DjangoProject.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                docs/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^swagger(?P&lt;format&gt;\.json|\.yaml)$
+                [name='schema-json']
+            
+          </li>
+        
+          <li>
+            
+                swagger/
+                [name='schema-swagger-ui']
+            
+          </li>
+        
+          <li>
+            
+                redoc/
+                [name='schemaredoc']
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+          <li>
+            
+                user/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names/$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-interfaces']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^projects/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='projects-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-configs']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='interfaces-testcases']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names/$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/names\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-names']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)/$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^envs/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='envs-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='debugtalks-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testsuits-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^reports/(?P&lt;pk&gt;[^/.]+)/download\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='reports-download']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='testcases-run']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-list']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)/$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^configures/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='configures-detail']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='api-root']
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>loans</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmProjects\DjangoProject\venv\lib\site-packages\httprunner\task.py", line 29, in runTest
+    self.fail(repr(ex))
+AssertionError: ExtractFailure('Failed to extract attribute from response body! => content.code\nresponse body: <!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /loans</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>http://127.0.0.1:8888/loans?pageIndex=2&amp;pageSize=3</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>DjangoProject.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                docs/\n                \n            \n          </li>\n        \n          <li>\n            \n                ^swagger(?P&lt;format&gt;\\.json|\\.yaml)$\n                [name=\'schema-json\']\n            \n          </li>\n        \n          <li>\n            \n                swagger/\n                [name=\'schema-swagger-ui\']\n            \n          </li>\n        \n          <li>\n            \n                redoc/\n                [name=\'schemaredoc\']\n            \n          </li>\n        \n          <li>\n            \n                api/\n                \n            \n          </li>\n        \n          <li>\n            \n                user/\n                \n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/$\n                [name=\'projects-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/names/$\n                [name=\'projects-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/names\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'projects-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces/$\n                [name=\'projects-interfaces\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/interfaces\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-interfaces\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'projects-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^projects/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'projects-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/$\n                [name=\'interfaces-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'interfaces-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs/$\n                [name=\'interfaces-configs\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/configs\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-configs\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'interfaces-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases/$\n                [name=\'interfaces-testcases\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^interfaces/(?P&lt;pk&gt;[^/.]+)/testcases\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'interfaces-testcases\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/$\n                [name=\'envs-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'envs-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/names/$\n                [name=\'envs-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/names\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'envs-names\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'envs-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^envs/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'envs-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks/$\n                [name=\'debugtalks-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'debugtalks-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'debugtalks-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^debugtalks/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'debugtalks-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/$\n                [name=\'testsuits-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testsuits-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'testsuits-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testsuits-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'testsuits-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testsuits/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testsuits-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/$\n                [name=\'reports-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'reports-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'reports-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'reports-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)/download/$\n                [name=\'reports-download\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^reports/(?P&lt;pk&gt;[^/.]+)/download\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'reports-download\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/$\n                [name=\'testcases-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testcases-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'testcases-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testcases-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)/run/$\n                [name=\'testcases-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^testcases/(?P&lt;pk&gt;[^/.]+)/run\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'testcases-run\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures/$\n                [name=\'configures-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'configures-list\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures/(?P&lt;pk&gt;[^/.]+)/$\n                [name=\'configures-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^configures/(?P&lt;pk&gt;[^/.]+)\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'configures-detail\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^$\n                [name=\'api-root\']\n            \n          </li>\n        \n          <li>\n            \n                \n                \n            \n                ^\\.(?P&lt;format&gt;[a-z0-9]+)/?$\n                [name=\'api-root\']\n            \n          </li>\n        \n      </ol>\n      <p>\n        \n        The current path, <code>loans</code>, didn\'t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\'re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n\n')
+</pre></div>
+            </div>
+          </div>
+        
+
+      </td>
+    </tr>
+  
+  </table>
+  
+</body>
